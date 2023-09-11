@@ -1,4 +1,5 @@
 package first_task;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,13 +8,11 @@ public class task_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         task_1 task1 = new task_1();
-        while (true)
-        {
+        while (true) {
             int choice = 0;
             System.out.println("Для выбора задания введите число от 1 до 5");
             choice = sc.nextInt();
-            switch (choice)
-            {
+            switch (choice) {
                 case 1:
                     task1.first();
                     break;
@@ -32,6 +31,7 @@ public class task_1 {
                 default:
                     break;
             }
+
         }
     }
 
@@ -80,28 +80,31 @@ public class task_1 {
             System.out.println(" Максимум: " + Arrays.stream(array).max());
         }
     }
-    public void third(String[] args){
-        int i = 1;
-        for (String arg : args) {
-            System.out.println("Аргумент " + i + ": " + arg);
-            i++;
+
+    public void third(String[] args) {
+        System.out.print("Введите сколько аргументов вы хотите (число) ");
+        Scanner sc = new Scanner(System.in);
+        int count = sc.nextInt();
+        for (int i = 1; i<=count; i++) {
+            System.out.println("Введите аргумент ");
+            String argument = sc.nextLine();
+            System.out.println("Аргумент " + i + ": " + argument);
         }
     }
 
-    public void fourth()
-    {
+    public void fourth() {
         int num = 10;
         double result = 0.0;
         System.out.println("Гармонический ряд: ");
         while (num > 0) {
-            result = result + (double)1 / num;
+            result = result + (double) 1 / num;
             num--;
             System.out.printf("%f, ", result);
         }
 
     }
 
-    public void get_factorial(){
+    public void get_factorial() {
         System.out.print("Введите число: ");
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
@@ -114,7 +117,7 @@ public class task_1 {
         } catch (NumberFormatException ne) {
             System.out.println("Неправильный ввод, повторите попытку!");
         }
-        
+
         int factorial_result = 1;
         for (int i = 1; i <= f; i++) {
             factorial_result *= i;

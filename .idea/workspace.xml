@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="full made  1 task">
-      <change afterPath="$PROJECT_DIR$/src/second_task/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/TestAuthor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/TestBall.java" afterDir="false" />
+    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="half of 2 task">
+      <change afterPath="$PROJECT_DIR$/src/second_task/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/second_task/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/second_task/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/second_task/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/second_task/testShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2023_19_45_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2023_19_45__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestBall">
+}</component>
+  <component name="RunManager" selected="Application.testShop">
     <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second_task.TestAuthor" />
       <module name="java practice" />
@@ -70,6 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_task.Tester" />
+      <module name="java practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="first_task.task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -79,8 +95,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_task.testShop" />
+      <module name="java practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testShop" />
+        <item itemvalue="Application.Tester" />
         <item itemvalue="Application.TestBall" />
         <item itemvalue="Application.TestAuthor" />
         <item itemvalue="Application.first_task.task_1" />
@@ -105,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694444843904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="half of 2 task">
+      <option name="closed" value="true" />
+      <created>1694447235048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694447235048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="full made  1 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="full made  1 task" />
+    <MESSAGE value="half of 2 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="half of 2 task" />
   </component>
 </project>

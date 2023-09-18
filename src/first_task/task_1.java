@@ -1,5 +1,6 @@
 package first_task;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -117,12 +118,18 @@ public class task_1 {
         } catch (NumberFormatException ne) {
             System.out.println("Неправильный ввод, повторите попытку!");
         }
-
-        int factorial_result = 1;
+        long start = System.currentTimeMillis();
+        start = System.currentTimeMillis();
+        BigInteger factorial_result = BigInteger.ONE;
         for (int i = 1; i <= f; i++) {
-            factorial_result *= i;
+            factorial_result = factorial_result.multiply(BigInteger.valueOf(i));
         }
-        System.out.println(factorial_result);
+        long end = System.currentTimeMillis();
+        System.out.println("Число: "+factorial_result);
+        end = System.currentTimeMillis();
+        int digits = factorial_result.toString(10).length();
+        System.out.println("Время: " + ((double)(end - start))/1000);
+        System.out.println(factorial_result.toString().length());
     }
 
 }

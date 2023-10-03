@@ -29,8 +29,7 @@ public class task_1 {
                 case 5:
                     task1.get_factorial();
                     break;
-                default:
-                    break;
+
             }
 
         }
@@ -86,7 +85,7 @@ public class task_1 {
         System.out.print("Введите сколько аргументов вы хотите (число) ");
         Scanner sc = new Scanner(System.in);
         int count = sc.nextInt();
-        for (int i = 1; i<=count; i++) {
+        for (int i = 1; i <= count; i++) {
             System.out.println("Введите аргумент ");
             String argument = sc.nextLine();
             System.out.println("Аргумент " + i + ": " + argument);
@@ -112,7 +111,7 @@ public class task_1 {
         int intInputValue, f = 0;
         try {
             intInputValue = Integer.parseInt(input);
-            System.out.println("Правильный ввод, продолжаем)");
+            //System.out.println("Правильный ввод, продолжаем)");
             f = intInputValue;
             //System.out.print(f+ " " +intInputValue);
         } catch (NumberFormatException ne) {
@@ -125,11 +124,11 @@ public class task_1 {
             factorial_result = factorial_result.multiply(BigInteger.valueOf(i));
         }
         long end = System.currentTimeMillis();
-        System.out.println("Число: "+factorial_result);
+        System.out.println("Число: " + factorial_result);
         end = System.currentTimeMillis();
         int digits = factorial_result.toString(10).length();
-        System.out.println("Время: " + ((double)(end - start))/1000);
-        System.out.println(factorial_result.toString().length());
+        System.out.println("Время: " + ((double) (end - start)) / 1000);
+        System.out.println("Длина числа: " + factorial_result.toString().length());
     }
 
 }

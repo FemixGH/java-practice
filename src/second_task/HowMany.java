@@ -14,17 +14,17 @@ public class HowMany {
         int count = 0;
 
         //Если ввели хотя бы одно слово, тогда считать, иначе конец программы
-        if(input.length() != 0){
+        if (input.length() != 0) {
             count++;
             //Проверяем каждый символ, не пробел ли это
             for (int i = 0; i < input.length(); i++) {
-                if(input.charAt(i) == ' '){
+                if (input.charAt(i) == ' ') {
                     //Если пробел - увеличиваем количество слов на 1
                     count++;
                 }
             }
         }
 
-        System.out.println("Вы ввели "+count+"слов");
+        System.out.println("Вы ввели " + count + " слов");
     }
 }

@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/second_task/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/DogNursery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/HowMany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/Poker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/second_task/testBook.java" afterDir="false" />
+    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="ещё чутка">
+      <change afterPath="$PROJECT_DIR$/src/fifth_task/animation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fourth_task/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fourth_task/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third_task/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third_task/converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third_task/generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/third_task/task_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/first_task/task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first_task/task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second_task/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second_task/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second_task/TestAuthor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second_task/TestAuthor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/second_task/testShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second_task/testShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/second_task/HowMany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/second_task/HowMany.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +54,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.task_1">
-    <configuration name="Poker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_task.Poker" />
+  <component name="RunManager" selected="Application.CurrencyConverter">
+    <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_task.CurrencyConverter" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_task.*" />
+          <option name="PATTERN" value="third_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_task.Reverse" />
+    <configuration name="converter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_task.converter" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_task.*" />
+          <option name="PATTERN" value="third_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_task.TestAuthor" />
+    <configuration name="fourth_task.Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fourth_task.Tester" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_task.*" />
+          <option name="PATTERN" value="fourth_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_task.task_1" />
+    <configuration name="generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_task.generic" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_task.*" />
+          <option name="PATTERN" value="third_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second_task.testBook" />
+    <configuration name="third_task.task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third_task.task_1" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second_task.*" />
+          <option name="PATTERN" value="third_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.task_1" />
-        <item itemvalue="Application.TestAuthor" />
-        <item itemvalue="Application.Poker" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.testBook" />
+        <item itemvalue="Application.CurrencyConverter" />
+        <item itemvalue="Application.fourth_task.Tester" />
+        <item itemvalue="Application.third_task.task_1" />
+        <item itemvalue="Application.generic" />
+        <item itemvalue="Application.converter" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +141,12 @@
       <workItem from="1693896913244" duration="2191000" />
       <workItem from="1693922745274" duration="2469000" />
       <workItem from="1693991545446" duration="1355000" />
+      <workItem from="1695053834603" duration="93000" />
+      <workItem from="1695222286302" duration="32000" />
+      <workItem from="1695273548406" duration="2574000" />
+      <workItem from="1695277035146" duration="2516000" />
+      <workItem from="1695880140654" duration="4165000" />
+      <workItem from="1696332474208" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1693897091170</created>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693897091170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ещё чутка">
+      <created>1695053912098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695053912098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +181,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="ещё чутка" />
+    <option name="LAST_COMMIT_MESSAGE" value="ещё чутка" />
   </component>
 </project>

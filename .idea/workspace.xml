@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="4 task done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fifth_task/GuiInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fifth_task/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eight_task/from_a_to_b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eight_task/monotone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eight_task/rekurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eight_task/sum_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/night_task/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seventh_task/UML diagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sixth_task/task_six.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fifth_task/animation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fifth_task/GuiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fifth_task/GuiInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,33 +39,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/fedor/IdeaProjects/java practice/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/fedor/IdeaProjects/java practice/src/seventh_task",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/fedor/IdeaProjects/java practice/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fedor\IdeaProjects\java practice\src\seventh_task" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fedor\IdeaProjects\java practice\src\fifth_task\pictures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainFrame">
-    <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_task.CurrencyConverter" />
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="GuiInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifth_task.GuiInterface" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_task.*" />
+          <option name="PATTERN" value="fifth_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuiInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifth_task.GuiInterface" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eight_task.Main" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fifth_task.*" />
+          <option name="PATTERN" value="eight_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fourth_task.Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fourth_task.Tester" />
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="night_task.Student" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fourth_task.*" />
+          <option name="PATTERN" value="night_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="third_task.task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_task.task_1" />
+    <configuration name="sum_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eight_task.sum_number" />
       <module name="java practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_task.*" />
+          <option name="PATTERN" value="eight_task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.MainFrame" />
         <item itemvalue="Application.GuiInterface" />
-        <item itemvalue="Application.CurrencyConverter" />
-        <item itemvalue="Application.fourth_task.Tester" />
-        <item itemvalue="Application.third_task.task_1" />
+        <item itemvalue="Application.sum_number" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +158,8 @@
       <workItem from="1696332474208" duration="5011000" />
       <workItem from="1696351767555" duration="193000" />
       <workItem from="1696352663937" duration="150000" />
+      <workItem from="1696443142981" duration="61000" />
+      <workItem from="1696484338217" duration="5342000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1693897091170</created>
@@ -172,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696335335923</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4 task done">
+      <created>1696443175282</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696443175282</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

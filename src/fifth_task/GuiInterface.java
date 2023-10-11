@@ -50,16 +50,18 @@ public class GuiInterface extends JFrame implements ActionListener {
         }
 
         scoreLabel.setText("Result: " + ArgentinaScore + " X " + JamaicaScore);
-
-        if (ArgentinaScore > JamaicaScore) {
+        if ((ArgentinaScore == 5)&&(JamaicaScore == 0)){
+            //todo вставить анимацию
+            MainFrame mf = new MainFrame();
+            mf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+            mf.setVisible(true);
+        }
+        else if (ArgentinaScore > JamaicaScore) {
             winnerLabel.setText("Winner: Аргентина");
         } else if (ArgentinaScore < JamaicaScore) {
             winnerLabel.setText("Winner: Ямайка");
         }
-        else if (ArgentinaScore == 5){
-            //todo вставить анимацию
-            //MainFrame mainFrame = new MainFrame();
-        }
+
         else {
             winnerLabel.setText("Winner: DRAW");
         }

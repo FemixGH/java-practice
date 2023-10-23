@@ -1,46 +1,47 @@
 package night_task;
 
 
-class Student {
+public class Student implements Comparable {
 
-    public int idNumber[];
+    private int idNum;
+    private int GPA;
 
-    public Student() {
-        idNumber = new int[6];
-        idNumber[0] = 20;
-        idNumber[1] = 12;
-        idNumber[2] = 15;
-        idNumber[3] = 18;
-        idNumber[4] = 30;
-        idNumber[5] = 100;
+    public Student(int idNum, int GPA) {
+        this.idNum = idNum;
+        this.GPA = GPA;
     }
 
-    public void selectionSort() {
-        for (int i = 0; i < idNumber.length; i++) {
-            int min = idNumber[i];
-            int min_i = i;
-            for (int j = i + 1; j < idNumber.length - 1; j++)
-                if (idNumber[j] < min) {
-                    min = idNumber[j];
-                    min_i = j;
-                }
-            if (i != min_i) {
-                int tmp = idNumber[i];
-                idNumber[i] = idNumber[min_i];
-                idNumber[min_i] = tmp;
-            }
-        }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "idNum=" + idNum +
+                ", GPA=" + GPA +
+                '}';
     }
 
-    public void PrintScr() {
-        for (int aIdNumber : idNumber) {
-            System.out.println(aIdNumber);
-        }
+    public int getIdNum() {
+        return idNum;
     }
 
-    public static void main(String[] args) {
-        Student student = new Student();
-        student.selectionSort();
-        student.PrintScr();
+    public void setIdNum(int idNum) {
+        this.idNum = idNum;
     }
+
+    public int getGPA() {
+        return GPA;
+    }
+
+    public void setGPA(int GPA) {
+        this.GPA = GPA;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if(!(o instanceof Student))
+            throw new IllegalArgumentException("Объект не является студентом!");
+
+        return this.idNum - ((Student) o).idNum;
+    }
+
+
 }

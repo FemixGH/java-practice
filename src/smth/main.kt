@@ -1,0 +1,5 @@
+package smth
+
+fun main(){
+
+}

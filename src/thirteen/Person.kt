@@ -20,6 +20,7 @@ class Person(private val firstName: String?, private val lastName: String?, priv
 }
 
 fun main() {
+
     // Создаем объекты Person с разными значениями имени, фамилии и отчества
     val person1 = Person("Иван", "Иванов", "Иванович")
     val person2 = Person(null, "Петров", "Петрович")
@@ -29,4 +30,5 @@ fun main() {
     println(person1.getFullName()) // ожидаемый результат: "Иванов И.И."
     println(person2.getFullName()) // ожидаемый результат: "Петров П.П."
     println(person3.getFullName()) // ожидаемый результат: "Сидоров С."
+
 }

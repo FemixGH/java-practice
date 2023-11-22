@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="4 task done">
-      <change afterPath="$PROJECT_DIR$/src/fifteen/calculator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sixteen/password.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smth/main.kt" afterDir="false" />
+    <list default="true" id="361db2dd-4647-4498-b4bf-e244e532a99e" name="Changes" comment="16 пиво готово">
+      <change afterPath="$PROJECT_DIR$/src/eighteen/Exception2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nineteen/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twenty/Matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/Chair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/ChairFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/Client.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/ConcreteChairFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/MagicChair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/MultiFunctionalChair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyFour/VictorianChair.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyOne/ArrayToListConverter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Add.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Const.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Divide.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Expression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Multiply.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Substract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyThree/Variable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/twentyTwo/RPNCalculator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -39,36 +57,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Theodor/IdeaProjects/java-practice/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/fedor/IdeaProjects/java practice/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Theodor/IdeaProjects/java-practice/src/twentyFour",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/fedor/IdeaProjects/java practice/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src" />
-      <recent name="C:\Users\fedor\IdeaProjects\java practice\src\seventh_task" />
+      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src\twentyFour" />
+      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src\twentyThree" />
+      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src\twentyTwo" />
+      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src\twentyOne" />
+      <recent name="C:\Users\Theodor\IdeaProjects\java-practice\src\twenty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\fedor\IdeaProjects\java practice\src\fifth_task\pictures" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PasswordKt">
+  <component name="RunManager" selected="Kotlin.Exception2">
     <configuration name="MainFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fifth_task.MainFrame" />
       <module name="java practice" />
@@ -82,29 +103,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifteen.Calculator" />
+    <configuration name="TestAuthor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_task.TestAuthor" />
+      <module name="java practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="second_task.Tester" />
+      <module name="java practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="second_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exception2" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eighteen.Exception2" />
       <module name="java practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifteen.CalculatorKt" />
-      <module name="java practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sixteen.PasswordKt" />
-      <module name="java practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thirteen.PersonKt" />
+    <configuration name="Main" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twentyFour.Main" />
       <module name="java practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PasswordKt" />
-        <item itemvalue="Kotlin.CalculatorKt" />
-        <item itemvalue="Kotlin.Calculator" />
-        <item itemvalue="Kotlin.PersonKt" />
+        <item itemvalue="Kotlin.Exception2" />
+        <item itemvalue="Application.TestAuthor" />
+        <item itemvalue="Application.Tester" />
+        <item itemvalue="Kotlin.Main" />
         <item itemvalue="Application.MainFrame" />
       </list>
     </recent_temporary>
@@ -142,6 +175,9 @@
       <workItem from="1696443142981" duration="61000" />
       <workItem from="1696484338217" duration="5342000" />
       <workItem from="1698261172962" duration="737000" />
+      <workItem from="1699288032784" duration="1000" />
+      <workItem from="1700650253557" duration="1475000" />
+      <workItem from="1700679882277" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1693897091170</created>
@@ -171,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696443175282</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="16 пиво готово">
+      <option name="closed" value="true" />
+      <created>1698961455109</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698961455109</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +236,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="ещё чутка" />
     <MESSAGE value="4 task done" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 task done" />
+    <MESSAGE value="16 пиво готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="16 пиво готово" />
   </component>
 </project>
